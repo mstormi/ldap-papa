@@ -1,0 +1,57 @@
+dn: dc=adm
+objectclass: organization
+objectclass: dcObject
+o: TSI
+dc: adm
+
+dn: o=TSI,dc=adm
+objectclass: organization
+objectclass: dcObject
+o: TSI
+dc: adm
+
+dn: cn=testA,o=TSI,dc=adm
+objectclass: device
+cn: testA
+o: TSI
+sn: meinNameIstTestA
+
+dn: cn=testB,o=TSI,dc=adm
+objectclass: inetOrgPerson
+objectclass: device
+cn: testB
+sn: meinNameIstTestB
+o: TSI
+
+dn: cn=testC,o=TSI,dc=adm
+objectclass: TSIdevice
+cn: testC
+sn: meinNameIstTestC
+o: TSI
+
+dn: cn=testD,o=TSI,dc=adm
+objectclass: dummyPerson
+cn: testD
+sn: meinNameIstTestD
+o: TSI
+
+dn: cn=testAC,o=TSI,dc=adm
+objectclass: device
+objectclass: TSIdevice
+cn: testAC
+sn: meinNameIstTestAC
+o: TSI
+
+dn: cn=testBD,o=TSI,dc=adm
+objectclass: person
+objectclass: dummyPerson
+cn: testBD
+sn: meinNameIstTestBD
+o: TSI
+
+dn: cn=testBC,o=TSI,dc=adm
+objectclass: TSIdevice
+objectclass: inetOrgperson
+cn: testBD
+sn: meinNameIstTestBD
+o: TSI
